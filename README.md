@@ -1,3 +1,5 @@
+# Nguyễn Thế Phong - FaMI - HUST 
+
 # Thực hiện theo các bước dưới đây, hoặc đọc file báo cáo gắn kèm ở bên trên.
 
 # CDW_FedAvg
