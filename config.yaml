@@ -1,0 +1,46 @@
+# Runtime params
+#===================================
+train: Train # train new or existing model for each client
+predict: Train # generate new predicts or, if False, use predictions stored locally
+use_id: "2020-01-08_09.32.00"
+random_seed: 0
+# train params
+# ==================================
+batch_size: 200
+num_rounds: 100
+eval_every: 1
+clients_per_round: 4
+num_epochs: 40
+
+# model params
+# ==================================
+lr: 0.005
+seq_len: 10
+num_class: 2
+n_dimension: 17
+n_label: 2
+len_out: 2
+n_hidden: 150
+
+
+# ==================================
+accuracy_key: 'accuracy'
+recall_key: 'recall'
+precision_key: 'precision'
+bytes_written_key: 'bytes_written'
+bytes_read_key: 'bytes_read'
+local_computations_key: 'local_computations'
+num_round_key: 'round_number'
+num_samples_key: 'num_samples'
+client_id_key: 'client_id'
+metrics_dir: 'metrics'
+metrics_name: 'test'
+reduce_dimension_metrics_dir: 'metrics'
+reduce_dimension_metrics_name: 'reduce_dimension'
+# model
+LR: 'LR'
+Fed_LR: 'Fed_LR'
+LSTM: 'LSTM'
+Fed_LSTM: 'Fed_LSTM'
+NN: 'NN'
+Fed_NN: 'Fed_NN'
